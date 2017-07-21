@@ -75,7 +75,7 @@ body {
 @media (min-width:768px) {
 	.container {
 		position: relative;
-		height: 100vh;
+		height: calc(100vh - 48px);
 		padding: 0 25%;
 	}		
 	.main {
